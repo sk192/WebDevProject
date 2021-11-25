@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+.navBar{
+  background: linear-gradient(90deg, rgba(5, 33, 65), black);
+}
+/* .links{
+  color: white;
+  
+} */
+a.nav-link{
+  margin: 20px !important;
+  font-size: 18px;
+ 
+}
+
+a.nav-link:link{
+  text-decoration: none;
+  color: white;
+}
+
+a.nav-link:visited{
+  color: white;
+  font-weight: bold;
+}
+a.nav-link:hover{
+  color: rgb(207, 153, 82);
+}
+
+.active-nav-link{
+  color: rgb(255,255,255);
+  
+  font-weight: bold;
+  background-color: rgba(202, 203, 204, 0.8);
+}
+a.navbar-brand{
+  color: rgb(236, 233, 233);
+  font-size: 25px !important;
+  text-decoration: none;
+  margin: 10px;
+
+}
+/* button.navbar-toggler{
+  border-color: rgb(150, 150, 150) !important;
+  width: 20px;
+  height: 30px;
+} */
