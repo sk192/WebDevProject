@@ -10,7 +10,7 @@ import About from "./components/about.jsx";
 import Contact from "./components/contact.jsx";
 import './stylesheet/footer.css';
 // import Resume from './Data/resume.jsx';
-// import Projects from './Data/projects.jsx';
+import Main from './components/projects.jsx';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" exact element={<About />} />
-            {/* <Route exact path="/projects" component={Projects} /> */}
+            <Route exact path="/projects" element={<Main />} />
             <Route path="/contact" exact element={<Contact />} />
             {/* <Route exact path="/resume" component={Resume} /> */}
           </Routes>
