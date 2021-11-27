@@ -17,7 +17,7 @@ function navbar() {
         </Navbar.Brand>
         {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
+          <Nav className="link1" style={{width: "100%"}}>
             {/* <Nav.Link href="/" className="links">Home</Nav.Link> */}
             <Nav.Link href="/" className="links">About</Nav.Link>
             <Nav.Link href="/projects" className="links">Project</Nav.Link>
