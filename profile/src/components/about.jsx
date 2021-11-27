@@ -7,21 +7,18 @@ import pic from "../images/shweta_pic.jpg";
 const about = () => {
   return (
     <Card className="card" bg="primary">
-      <div className="info">HOVER TO SEE WHO I AM
-        </div>
+      <div className="info">HOVER TO SEE WHO I AM</div>
       <Card.Img variant="top" src={pic} width="400px" />
       <Card.Body className="overlay">
         <Card.Title className="over">
           <b>Shweta Korulkar</b>
         </Card.Title>
         <Card.Text className="text overlay">
-          Hello! I am Shweta Korulkar. I am from India. I completed my bachelors
-          from India and now I am pursuing MS in Compuneter Science from
-          Portland State University. This is my last semester and I am
-          graduating in December 2021. I worked on many academic projects
-          including different programming languages and I enjoy myself working on back end
-          development, full stack develoment, database develoment and SRE
-          projects.
+          Hello! I am Computer Science graduate student at Portland State
+          University. I am graduating in December 2021. I am from India where I
+          completed my bachelors and Master of Engineering in computer science.
+          I am passionate about coding and also like to do hike, cycling,
+          dance, water activity. I love to read books in my free time.
         </Card.Text>
         <Card.Link
           href="https://www.linkedin.com/in/shweta-korulkar-9aa690119/"
