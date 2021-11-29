@@ -9,7 +9,7 @@ import Footer from './components/footer';
 import About from "./components/about.jsx";
 import Contact from "./components/contact.jsx";
 import './stylesheet/footer.css';
-// import Resume from './Data/resume.jsx';
+import Resume from './components/resume.jsx';
 import Main from './components/projects.jsx';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
             <Route path="/" exact element={<About />} />
             <Route exact path="/projects" element={<Main />} />
             <Route path="/contact" exact element={<Contact />} />
-            {/* <Route exact path="/resume" component={Resume} /> */}
+            <Route exact path="/resume" element={<Resume />} />
           </Routes>
         </Router>
       </div>
