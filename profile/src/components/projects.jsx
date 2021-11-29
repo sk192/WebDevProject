@@ -1,43 +1,20 @@
 import React from "react";
-// import { Next, Prev } from "react-bootstrap/esm/PageItem";
 import "../stylesheet/projects.css";
 import Prev from './previous.jsx';
 import Next from './next.jsx';
 import Profile from './profile.jsx';
-// import weather_img from '../../public/images/logo.jpg';
-// import covid_img from '../../public/images/covid-19.jpg';
 
-// const project = () => {
-//   const data = [
-//     {
-//       img: "/images/logo.jpg",
-//       link: "https://github.com",
-//     },
-//     { img: "/images/covid-19.jpg", link: "https://github.com" },
-//   ];
-
-//   return (
-//     <div
-//       className="project_div"
-//       style={{ backgroundImage: "url(/images/logo.jpg)" }}
-//     >
-//       <a href="https://github.com">Weather-Hike-webApp</a>
-//     </div>
-//   );
-// };
-
-// export default project;
 
 var data = [
   {
     img: "/images/logo.jpg",
-    link: "https://github.com",
-    name: "Weather-Hike-React-WebApp"
+    link: "https://github.com/HarshaRamayanam/webdev-project/tree/main/weather-app",
+    name: "Weather-Hike-WebApp",
+  
   },
-  { img: "/images/covid-19.jpg", link: "https://github.com", name:"Covid-19-WebApp" },
-  { img: "/images/logo192.png", link: "https://github.com", name:"logo" },
-  { img: "/images/logo512.png", link: "https://github.com", name:"logo1" },
-  { img: "/images/covid-19.jpg", link: "https://github.com", name:"Covid-19-WebApp" },
+  { img: "/images/covid-19.jpg", link: "https://github.com/sk192/Front_End_Web_Dev_Project", name:"Covid-19-WebApp" },
+  { img: "/images/MIT_Battlecode.png", link: "https://github.com/cemondr/BC19pdxgroup4/tree/master/bots", name:"MIT Battlecode" },
+  
 ];
 
 class Main extends React.Component {
@@ -71,9 +48,11 @@ class Main extends React.Component {
                 <div className="data">
                     <div className="button_div">
                         <Prev toggle={(e) => this.togglePrev(e)} active={disabledPrev} />
+                        
+                        <Profile {...data1} />
                         <Next toggle={(e) => this.toogleNext(e)} active ={disabledNext} />
                     </div>
-                    <Profile {...data1} />
+                    
 
                 </div>
             )
