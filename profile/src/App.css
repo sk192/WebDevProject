@@ -1,6 +1,9 @@
 .navBar {
   background: linear-gradient(90deg, rgba(5, 33, 65), black);
   text-align: left;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 a.nav-link {
@@ -10,7 +13,6 @@ a.nav-link {
 
 a.nav-link:link {
   text-decoration: none;
-  color: white;
 }
 .link1 {
   text-align: right;
@@ -18,9 +20,10 @@ a.nav-link:link {
 }
 
 a.nav-link:visited {
-  color: white;
+  color: whitesmoke;
   font-weight: bold;
 }
+
 a.nav-link:hover {
   color: rgb(207, 153, 82);
 }
