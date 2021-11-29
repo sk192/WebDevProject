@@ -3,6 +3,7 @@ import "../stylesheet/about.css";
 import Card from "react-bootstrap/Card";
 import pic from "../images/shweta_pic.jpg";
 // import "bootstrap/dist/css/bootstrap.min.css";
+require("dotenv").config();
 
 const about = () => {
   return (
