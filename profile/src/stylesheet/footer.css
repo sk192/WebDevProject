@@ -2,8 +2,8 @@ footer {
   /* color: rgb(60, 173, 130); */
   color: white;
   background-color:  rgba(5, 33, 65);
-  padding-top: 2em;
-  position: absolute;
+  /* padding-top: 2em; */
+  position: fixed;
   bottom: 0;
   width: 100%;
   
