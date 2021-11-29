@@ -1,15 +1,27 @@
-const contact = () => {
-    return(
-        <div className="main">
-            <div className="image_div">
-                <img src="" alt="profile" width="300px" height =" 300px" /> 
-            </div>
-            <div className="info">
-                <a href="https://github.com/sk192">Github</a>
-                <a href="https://www.linkedin.com/in/shweta-korulkar-9aa690119/">LinkedIn</a>
 
-            </div>
+import pic2 from "../images/pic2.jpg";
+
+export default function Contact() {
+  return (
+    <div className="about-body" role="contentinfo">
+      <div className="aboutCard about1">
+        <img src={pic2} alt="shwetha-Avatar" className="aboutImg" width="300px" height = "300px"  />
+        <div className="aboutContainer">
+          <h4 className="about-name">
+            <b>Shweta Korulkar</b>
+          </h4>
+    
+          <a
+            href="https://github.com/sk192"
+            className="about-gitrepo-link"
+          >
+            GitHub{" "}
+            <span className="gitExternalLinkIcon">
+              <i className="fa fa-external-link-alt gitExternalLink"></i>
+            </span>
+          </a>
         </div>
-    )
-}
-export default contact;
+      </div>
+    </div>
+  
+  )}
