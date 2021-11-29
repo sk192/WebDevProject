@@ -20,7 +20,7 @@ function navbar() {
           <Nav className="link1" style={{width: "100%"}}>
             {/* <Nav.Link href="/" className="links">Home</Nav.Link> */}
             <Nav.Link href="/" className="links">About</Nav.Link>
-            <Nav.Link href="/projects" className="links">Project</Nav.Link>
+            <Nav.Link href="/projects" className="links">Projects</Nav.Link>
             <Nav.Link href="/resume" className="links">Resume</Nav.Link>
             <Nav.Link href="/contact" className="links">Contact</Nav.Link>
           
