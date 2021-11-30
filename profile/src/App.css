@@ -4,6 +4,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
+
 }
 
 a.nav-link {
@@ -38,10 +39,19 @@ a.navbar-brand {
   color: rgb(236, 233, 233);
   font-size: 25px !important;
   text-decoration: none;
-  margin: 10px;
+  margin: 20px;
+ 
 }
-/* button.navbar-toggler{
+
+button.navbar-toggler{
   border-color: rgb(150, 150, 150) !important;
   width: 20px;
-  height: 30px;
+  /* height: 30px; */
+}
+
+/* .App{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
 } */
