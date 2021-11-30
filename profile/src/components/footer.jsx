@@ -2,17 +2,15 @@ import React from "react";
 
 const footer = () => {
   return (
-   <footer className="footer bg-dark">
+    <footer className="footer bg-dark">
       <div className="container">
         <div className="row">
           <div className="col col1 ">
             <h4>PORTFOLIO</h4>
-            {/* <h5 className="list-unstyled">By:</h5> */}
             <p>
               <b>
                 <em>By: Shweta Korulkar</em>
               </b>
-              
             </p>
           </div>
           <div className="col col2">
@@ -23,7 +21,7 @@ const footer = () => {
                   <b>ReactJS</b>
                 </a>
               </li>
-            
+
               <li>
                 <a
                   href="https://getbootstrap.com/"
@@ -45,10 +43,8 @@ const footer = () => {
             </ul>
           </div>
         </div>
-        
       </div>
     </footer>
- 
   );
 };
 
