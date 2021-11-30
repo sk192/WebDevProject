@@ -9,7 +9,7 @@ const about = () => {
   return (
     <Card className="card" bg="primary">
       <div className="info">HOVER TO SEE WHO I AM</div>
-      <Card.Img variant="top" src={pic} width="70%" alt="my pic"/>
+      <Card.Img variant="top" src={pic} width="70%" alt="my pic" />
       <Card.Body className="overlay">
         <Card.Title className="over">
           <b>Shweta Korulkar</b>
@@ -18,8 +18,8 @@ const about = () => {
           Hello! I am Computer Science graduate student at Portland State
           University. I am graduating in December 2021. I am from India where I
           completed my bachelors and Master of Engineering in computer science.
-          I am passionate about coding and also like to do hike, cycling,
-          dance, water activity. I love to read books in my free time.
+          I am passionate about coding and also like to do hike, cycling, dance,
+          water activity. I love to read books in my free time.
         </Card.Text>
         <Card.Link
           href="https://www.linkedin.com/in/shweta-korulkar-9aa690119/"
