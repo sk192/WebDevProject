@@ -11,11 +11,13 @@ import Contact from "./components/contact.jsx";
 import './stylesheet/footer.css';
 import Resume from './components/resume.jsx';
 import Main from './components/projects.jsx';
+import './stylesheet/contact.css';
 
 function App() {
   return (
     <div className="App">
       <div className="content-wrap">
+       
         <Router>
           <Navbar />
           <Routes>
@@ -25,8 +27,10 @@ function App() {
             <Route exact path="/resume" element={<Resume />} />
           </Routes>
         </Router>
+  
       </div>
       <Footer />
+      
     </div>
   );
 }
