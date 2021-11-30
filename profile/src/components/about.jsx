@@ -9,7 +9,7 @@ const about = () => {
   return (
     <Card className="card" bg="primary">
       <div className="info">HOVER TO SEE WHO I AM</div>
-      <Card.Img variant="top" src={pic} width="400px" />
+      <Card.Img variant="top" src={pic} width="70%" alt="my pic"/>
       <Card.Body className="overlay">
         <Card.Title className="over">
           <b>Shweta Korulkar</b>
