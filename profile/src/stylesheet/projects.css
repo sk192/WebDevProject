@@ -37,7 +37,19 @@ a {
 button {
   padding: 15px;
   font-size: 4em;
-  margin: 20px;
+  margin: 15px;
   border: none;
   background-color: transparent;
+}
+
+@media (min-width:415px) and  (max-width:768px){
+  .projects{
+    width: 60%;
+  }
+}
+
+@media (max-width:414px){
+  .projects{
+  width: 55%;
+}
 }
