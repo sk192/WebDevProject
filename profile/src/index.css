@@ -7,6 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
    background-color: hsla(210, 20%, 90%, 1);
    text-align:center !important;
+   /* overflow-x: hidden !important;
+   overflow: auto !important; */
+   
 }
 
 code {
