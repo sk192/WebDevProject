@@ -3,10 +3,10 @@
 } */
 
 .react-pdf__Page__canvas {
-    margin: 0 auto;
-    width: 40% !important;
-    height: 100% !important;
-    /* margin-top: 10px; */
-    
-    
+  margin: 0 auto;
+  width: 40% !important;
+  height: 100% !important;
+  /* margin-top: 10px; */
 }
+
+
