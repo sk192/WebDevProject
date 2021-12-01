@@ -42,14 +42,14 @@ button {
   background-color: transparent;
 }
 
-@media (min-width:415px) and  (max-width:768px){
-  .projects{
+@media (min-width: 415px) and (max-width: 768px) {
+  .projects {
     width: 60%;
   }
 }
 
-@media (max-width:414px){
-  .projects{
-  width: 55%;
-}
+@media (max-width: 414px) {
+  .projects {
+    width: 55%;
+  }
 }
