@@ -1,29 +1,48 @@
 import pic2 from "../images/pic2.jpg";
 
+import React from "react";
+import Form from 'react-bootstrap/Form';
+// import { Button } from "react-bootstrap/Button";
+import Button from 'react-bootstrap/Button'
+import FormControl from 'react-bootstrap/FormControl'
+import FloatingLabel from 'react-bootstrap/FloatingLabel'
+// import "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css";
+
+
 export default function Contact() {
   return (
-    <div className="about-body" role="contentinfo">
-      <div className="aboutCard about1">
-        <img
-          src={pic2}
-          alt="shwetha-Avatar"
-          className="aboutImg"
-          width="300px"
-          height="300px"
-        />
-        <div className="aboutContainer">
-          <h4 className="about-name">
-            <b>Shweta Korulkar</b>
-          </h4>
-
-          <a href="https://github.com/sk192" className="about-gitrepo-link">
-            GitHub{" "}
-            <span className="gitExternalLinkIcon">
-              <i className="fa fa-external-link-alt gitExternalLink"></i>
-            </span>
-          </a>
+    
+    <div className="form-div">
+      <form className="bg-light border rounded mx-auto p-4" action="#">
+        <div className="input-group form-row">
+          <label htmlFor="name">Name</label>
+          <input
+            type="text"
+            className="form-control inputName"
+            id="name"
+            placeholder="Enter name"
+          />
         </div>
-      </div>
+        <div className="input-group">
+          <label htmlFor="email">Email</label>
+          <input
+            type="email"
+            className="form-control inputEmail"
+            id="email"
+            placeholder="Enter email"
+          />
+        </div>
+        <div className="input-group">
+          <label htmlFor="teaxtarea" id="label1">Comments</label>
+          <textarea className="form-control inputTextarea" id="textarea" rows="4"/>
+        </div>
+        <div className="input-group-append">
+          <input type="submit" className="btn btn-primary" value="Submit" />
+         
+        </div>
+      </form>
     </div>
+ 
+
   );
 }
