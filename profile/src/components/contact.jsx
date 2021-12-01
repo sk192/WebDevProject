@@ -6,6 +6,9 @@ export default function Contact() {
   return (
     
     <div className="form-div">
+      <div>
+        <h1>CONTACT FORM</h1>
+      </div>
       <form className="bg-light border rounded mx-auto p-4" action="#">
         <div className="input-group form-row">
           <label htmlFor="name">Name</label>
