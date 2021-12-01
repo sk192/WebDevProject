@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./navbar.jsx";
-import {HashRouter  as Router, Routes, Route } from "react-router-dom";
+import {BrowserRouter  as Router, Routes, Route } from "react-router-dom";
 import Footer from './components/footer';
 import About from "./components/about.jsx";
 import Contact from "./components/contact.jsx";
@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <div className="content-wrap">
        
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <Navbar />
           <Routes>
             <Route path="/" exact element={<About />} />
