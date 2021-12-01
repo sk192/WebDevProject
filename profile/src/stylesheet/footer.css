@@ -1,40 +1,25 @@
-/* footer {
- 
-  color: white;
-  background-color:  rgba(5, 33, 65);
-  
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  
-} */
-
 footer {
   color: white;
-  background :linear-gradient(90deg, rgba(5, 33, 65), black);
+  background: linear-gradient(90deg, rgba(5, 33, 65), black);
   padding-top: 0.3em;
   padding-bottom: 0.2em;
   bottom: 0;
   width: 100%;
-  /* height: 140px; */
   height: 13%;
   opacity: 1;
   overflow: hidden;
   position: fixed;
 }
-.list-unstyled{
-   font-size: 12pt;
-   margin-top: 1px;
+.list-unstyled {
+  font-size: 12pt;
+  margin-top: 1px;
 }
-footer  ul {
+footer ul {
   padding-left: 40%;
   list-style-type: disc;
-  /* display: inline; */
-
 }
 
-
-footer  ul li {
+footer ul li {
   cursor: pointer;
   font-size: 12pt;
   font-weight: 500;
@@ -42,55 +27,40 @@ footer  ul li {
   margin: 0 25px 0 0;
   opacity: 0.7;
   transition: all 0.4s ease;
-  /* display: inline; */
   float: left;
-} 
-
- footer  ul li:hover {
-  opacity: 1;
- 
 }
 
-footer  ul li:active {
+footer ul li:hover {
   opacity: 1;
 }
 
-footer  ul li a {
+footer ul li:active {
+  opacity: 1;
+}
+
+footer ul li a {
   text-decoration: none;
   color: inherit;
-  
 }
-footer  ul li a:hover {
+footer ul li a:hover {
   color: wheat;
   text-decoration: none;
 }
 
-.row{
+.row {
   display: inline-block;
   width: 100%;
-  
-
 }
-.col{
+.col {
   width: 40%;
   float: left;
 }
 
-@media (min-width:415px) and (max-width:768px){
-  .col2{
+@media (min-width: 415px) and (max-width: 768px) {
+  .col2 {
     width: 58%;
-    
   }
-  .col1{
+  .col1 {
     width: 40%;
   }
-  
 }
-/* @media (max-width: 414px){
-  .col1{
-    width: 40%;
-  }
-  .col2{
-    width:60px;
-  }
-} */
