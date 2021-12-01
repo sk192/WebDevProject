@@ -1,13 +1,6 @@
 import pic2 from "../images/pic2.jpg";
 
 import React from "react";
-import Form from 'react-bootstrap/Form';
-// import { Button } from "react-bootstrap/Button";
-import Button from 'react-bootstrap/Button'
-import FormControl from 'react-bootstrap/FormControl'
-import FloatingLabel from 'react-bootstrap/FloatingLabel'
-// import "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css";
-
 
 export default function Contact() {
   return (
