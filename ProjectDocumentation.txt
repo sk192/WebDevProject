@@ -4,18 +4,44 @@
 
 Week 9:
 
-Ever since the announcement of project I was wondering how should I represent the information like should I use different pages and navigation to these pages or should I use just single page and jumping on each section design. I wanted to use react and with react use of multiple pages ad navigation to those pages will be easy and react gives good look to the website so I decided to use react component. 
+Ever since the announcement of project I was wondering how should I represent the information like should I use different pages and navigation to these pages or should I use just single page and jumping on each section design. I wanted to use react and with react use of multiple pages and navigation to those pages will be easy and react gives good look to the website so I decided to use react component. 
 
 I displayed the navbar and links which routes to different pages. While working on link navigation, I used react Router and Switch to route to different paths. But due to incorrect way of using Router the information wasn’t displaying on page.  In earlier version of react, Switch is used to route to different path but now it’s updated to Routes instead of Switch also the syntax of using Routes is different. After figuring out this part, I could display the information in different pages. Stack overflow helped me to resolve this issue. I am also thinking about using react bootstrap to make website look good.
 
-While working on project page, I got an idea of displaying images of the projects I worked on using next and previous button. It took time for me to figure out how can I display the next and previous buttons to navigate next and previous. I used react class component and props to change the projects images using next and previous button. I had an issue of displaying next and previous icon. I was using react bootstrap icon tag inside react button but due to incorrect syntax I wasn’t getting an Icon. By modifying the Class Name I was able to display the icon. 
+While working on displaying past project information, I got an idea of displaying images of the projects I worked on using next and previous button instead of writing text about the project work. It took time for me to figure out how can I display the next and previous buttons to navigate next and previous. I used react class component and props to change the projects images using next and previous button. I had an issue of displaying next and previous icon. I was using react bootstrap icon tag inside react button but due to incorrect syntax I wasn’t getting an Icon. By modifying the Class Name I was able to display the icon. 
 
 Week 10:
 
 When I started working on resume part, I installed react-PDF to read the content of PDF and to display the PDF. So I accidentally installed some packages and I was getting webpack error regarding project dependency tree. To resolve this conflict I had to use .env variable and then  I added SKIP_PREFLIGHT_CHECK=true in .env file. I also removed pdfjs and pdf.worker.js which I imported earlier to display PDF. 
 
-Now I am working on accessibility and responsiveness of website. 
-  
+After completing the work of resume and contact page, displayed footer information and also worked on website responsiveness and accessibility part. I added media query for accessibility. 
+
+
+
+Github project repository files workflow:
+
+
+    • Components folder: This folder contains,
+            ▪ about.jsx- which has about page information
+            ▪ contact.jsx – which has contact page information
+            ▪ footer.jsx – footer information
+            ▪ next.jsx and previous.jsx – next and previous button code
+            ▪ profile.jsx – contains image and all professional information.
+            ▪ Resume.jsx – displayed resume.
+    • Images folder contains all images used in this project.
+      
+REFERENCE: 
+
+1) https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+2) https://create-react-app.dev/docs/available-scripts
+
+Github repository link:
+
+https://github.com/sk192/WebDevProject
+
+Deployed project link:
+
 
 
 
